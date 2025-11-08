@@ -1,0 +1,40 @@
+
+nombre_pais = name["spa"["official"] ["common"]]]
+
+moneda_simbolo = currencies["CLP"["symbol"]]
+moenda_nombre = currencies["CLP"["name"]]
+
+capital = ["capital"]
+region = ["region"]
+sub_region = ["subregion"]
+idiomas = ["languages"]
+poblacion = ["population"]
+
+latitudes = ["capitalInfo"["latlng"]]
+
+
+“El arte de la estrategia” – Dixit & Nalebuff
+
+
+Nombre común: Åland Islands
+Monedas: {'EUR': {'symbol': '€', 'name': 'Euro'}}
+Capital: ['Mariehamn']
+Región: Europe
+Subregión: Northern Europe
+Idiomas: {'swe': 'Swedish'}
+Población: 29458
+Latitudes: {'latlng': [60.12, 19.9]}
+
+
+CREATE TABLE CAPITAL (
+	id_capital INT AUTO_INCREMENT PRIMERY KEY,
+	nombre_capital VARCHAR(150)
+);
+
+CREATE TABLE CAPITAL_PAIS (
+	id_pais INT NOT NULL,
+	id_capital INT NOT NULL,
+	PRIMARY KEY id_pais, id_capital)
+);
+
+
