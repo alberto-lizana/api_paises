@@ -13,9 +13,6 @@ poblacion = ["population"]
 latitudes = ["capitalInfo"["latlng"]]
 
 
-“El arte de la estrategia” – Dixit & Nalebuff
-
-
 Nombre común: Åland Islands
 Monedas: {'EUR': {'symbol': '€', 'name': 'Euro'}}
 Capital: ['Mariehamn']
@@ -25,16 +22,5 @@ Idiomas: {'swe': 'Swedish'}
 Población: 29458
 Latitudes: {'latlng': [60.12, 19.9]}
 
-
-CREATE TABLE CAPITAL (
-	id_capital INT AUTO_INCREMENT PRIMERY KEY,
-	nombre_capital VARCHAR(150)
-);
-
-CREATE TABLE CAPITAL_PAIS (
-	id_pais INT NOT NULL,
-	id_capital INT NOT NULL,
-	PRIMARY KEY id_pais, id_capital)
-);
 
 
